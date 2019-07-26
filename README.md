@@ -19,11 +19,13 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 * <http://book.mixu.net/distsys/single-page.html>
+* Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
 
 
 ## Academic Papers Hubs
 * <https://dancres.github.io/Pages/>
 * <http://book.mixu.net/distsys/single-page.html> (near the bottom)
+* <http://dsrg.pdos.csail.mit.edu/papers/>
 
 
 ## Design Articles
@@ -57,7 +59,13 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 
 ## Distributed Filesystems
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
+
+##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
+
+##### Hash Tables
+* <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
+* <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
 
 
 ## Implementation
