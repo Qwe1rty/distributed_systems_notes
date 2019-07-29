@@ -13,7 +13,9 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 
 
 ## Textbooks and Courses
-* Distributed systems textbook: <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
+* Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_ : <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
+* Distributed Algorithms _by Nancy A. Lynch_ <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
+* Computer and Network Organization _by Maarten van Steen and Hank Sips_ <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
@@ -54,7 +56,8 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 
 
 ## Consensus
-* <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+* Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
 ## Distributed Filesystems
