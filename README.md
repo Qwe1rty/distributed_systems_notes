@@ -7,6 +7,7 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ## Introductory Articles
 * <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
 * <https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/>
+* <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 * <https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/>
 * <https://medium.com/@thehonourablejeffrey/4a-the-beginning-of-the-end-b9c46537b1c5>
 * <https://medium.com/baseds/many-nodes-one-distributed-system-9921f85205c4>
