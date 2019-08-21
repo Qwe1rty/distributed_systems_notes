@@ -17,9 +17,11 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_ : <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
 * Distributed Algorithms _by Nancy A. Lynch_ <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
 * Computer and Network Organization _by Maarten van Steen and Hank Sips_ <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
+* University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
+* University of Waterloo's CS346 [Networks and Distributed Computer Systems] <https://cs.uwaterloo.ca/~rtholmes/teaching/2011winter/cs436/index.html>
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 * <http://book.mixu.net/distsys/single-page.html>
 * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
@@ -31,16 +33,28 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * <http://dsrg.pdos.csail.mit.edu/papers/>
 
 
-## Design Articles
+## Other Resource Hubs
+* <https://github.com/binhnguyennus/awesome-scalability>
+* <https://github.com/onurakpolat/awesome-bigdata>
+* <https://github.com/mfornos/awesome-microservices>
+
+
+## Design
+* <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
 * <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
 * <https://www.slideshare.net/datamantra/building-distributed-processing-system-from-scratch-part-2>
 * <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
 
 
-## Communication/Multicast
+## Networking
+* Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
+* Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
+
+
+## Communication Protocols
 * <http://csis.pace.edu/~marchese/CS865/Lectures/Chap4/Chapter4.htm>
 
-##### Multicast
+##### Multicasting
 * <http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html>
 * Explanation of multicast IPs: <http://www.steves-internet-guide.com/introduction-multicasting/>
 
@@ -56,12 +70,17 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * Explains usage in Cassandra: <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>  
 
 
-## Consensus
+## Coordination
+
+##### Synchronization
+* <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
+
+##### Consensus
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
-## Distributed Filesystems
+## Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
 
 ##### Relational
@@ -72,11 +91,6 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
 
 
-## Implementation
+## Tutorials
 * <https://dzone.com/articles/creating-a-distributed-system-in-300-lines-with-me>
-
-
-## Other Resource Hubs
-* <https://github.com/binhnguyennus/awesome-scalability>
-* <https://github.com/onurakpolat/awesome-bigdata>
-* <https://github.com/mfornos/awesome-microservices>
+* <https://jack-vanlightly.com/blog/2019/2/1/building-a-simple-distributed-system-the-implementation>
