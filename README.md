@@ -26,8 +26,10 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
+  * Video series: <https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU>
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
 * University of Waterloo's CS346 [Networks and Distributed Computer Systems] <https://cs.uwaterloo.ca/~rtholmes/teaching/2011winter/cs436/index.html>
+  * Video series: https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 * <http://book.mixu.net/distsys/single-page.html>
 * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
@@ -60,7 +62,7 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ## Communication Protocols
 * <http://csis.pace.edu/~marchese/CS865/Lectures/Chap4/Chapter4.htm>
 
-##### Multicasting
+##### Multicast
 * <http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html>
 * Explanation of multicast IPs: <http://www.steves-internet-guide.com/introduction-multicasting/>
 
@@ -81,10 +83,6 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ##### Synchronization
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
 
-##### Consensus
-* Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
-* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
-
 
 ## Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
@@ -95,6 +93,11 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ##### Hash Tables
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
+
+
+## Consensus
+* Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
 ## Tutorials
