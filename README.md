@@ -59,45 +59,39 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
 
 
+## Coordination
+##### Synchronization
+* <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
+
+
 ## Communication Protocols
 * <http://csis.pace.edu/~marchese/CS865/Lectures/Chap4/Chapter4.htm>
-
 ##### Multicast
 * <http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html>
 * Explanation of multicast IPs: <http://www.steves-internet-guide.com/introduction-multicasting/>
-
 ##### Gossip Protocols
 * <https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/>
 * <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
 * <http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html>
 * Gossip performance analysis: <http://phdopen.mimuw.edu.pl/lato08/notes-1.pdf>
-
 ##### Gossip Usage
 * Explores gossip practices and nuances: <https://ayende.com/blog/169474/gossip-much-use-cases-and-bad-practices-for-gossip-protocols>
 * Explains various use cases: <https://www.quora.com/What-is-a-Gossip-protocol>
 * Explains usage in Cassandra: <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>  
 
 
-## Coordination
-
-##### Synchronization
-* <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
+## Consensus
+* Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
 ## Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
-
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
-
 ##### Hash Tables
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
-
-
-## Consensus
-* Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
-* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
 ## Tutorials
