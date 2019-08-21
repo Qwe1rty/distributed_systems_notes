@@ -39,16 +39,16 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 * <https://github.com/mfornos/awesome-microservices>
 
 
+## Networking
+* Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
+* Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
+
+
 ## Design
 * <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
 * <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
 * <https://www.slideshare.net/datamantra/building-distributed-processing-system-from-scratch-part-2>
 * <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
-
-
-## Networking
-* Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
-* Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
 
 
 ## Communication Protocols
