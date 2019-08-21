@@ -1,5 +1,11 @@
 # Distributed Systems Notes
-_TODO: scan and upload notes_
+
+This is my personal collection of links and notes taken while trying to learn about distributed systems.
+
+The structure of these notes is a various mix of paraphrasing/outlines/copying from the resources listed below,
+depending on what I felt helped me learn the material the best.
+
+Feel free to use the notes for any non-commercial purposes!
 
 _TODO: give a brief summary of the links, what they talk about, etc._
 
