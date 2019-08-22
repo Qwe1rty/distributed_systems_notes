@@ -5,6 +5,9 @@ This is my personal collection of links and notes taken while trying to learn ab
 The structure of these notes is a various mix of paraphrasing/outlines/copying from the resources listed below,
 depending on what I felt helped me learn the material the best.
 
+In each folder you'll find the PDF notes, a README giving an outline of the included topics, and individual
+JPG images for each page.
+
 Feel free to use the notes for any non-commercial purposes!
 
 _TODO: give a brief summary of the links, what they talk about, etc._
@@ -62,6 +65,8 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ## Coordination
 ##### Synchronization
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
+##### Clock and Logical Ordering
+* See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
 
 
 ## Communication Protocols
@@ -92,6 +97,16 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ##### Hash Tables
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
+
+
+## Microservices
+* <https://microservices.io>
+##### Design
+* Synchronous vs. asynchronous design: <https://dzone.com/articles/patterns-for-microservices-sync-vs-async>
+* CQRS breakdown: <https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs>
+##### Event Sourcing
+* Event sourcing explanation: <https://microservices.io/patterns/data/event-sourcing.html>
+* Vector clock timestamping: <https://stackoverflow.com/questions/41082938/event-sourcing-microservices-how-to-manage-timestamp>
 
 
 ## Tutorials
