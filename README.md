@@ -10,8 +10,6 @@ JPG images for each page.
 
 Feel free to use the notes for any non-commercial purposes!
 
-_TODO: give a brief summary of the links, what they talk about, etc._
-
 
 ## Introductory Articles
 * <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
@@ -66,6 +64,7 @@ _TODO: give a brief summary of the links, what they talk about, etc._
 ##### Synchronization
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
 ##### Clock and Logical Ordering
+* Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
 * See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
 
 
