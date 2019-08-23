@@ -21,19 +21,20 @@ Feel free to use the notes for any non-commercial purposes!
 
 
 ## Textbooks and Courses
-* Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_ : <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
-* Distributed Algorithms _by Nancy A. Lynch_ <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
-* Computer and Network Organization _by Maarten van Steen and Hank Sips_ <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
+* Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_: <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
+* Distributed Algorithms _by Nancy A. Lynch_: <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
+* Computer and Network Organization _by Maarten van Steen and Hank Sips_: <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
+* Designing Data-Intensive Applications _by Martin Kleppman_: <http://dataintensive.net/>
 * University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
   * Video series: <https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU>
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
 * University of Waterloo's CS346 [Networks and Distributed Computer Systems] <https://cs.uwaterloo.ca/~rtholmes/teaching/2011winter/cs436/index.html>
-  * Video series: https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N
+  * Official Coursera series: <https://www.coursera.org/learn/cloud-computing-2#syllabus>
+  * Video series: <https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N>
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 * <http://book.mixu.net/distsys/single-page.html>
-* Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
 
 
 ## Academic Papers Hubs
@@ -46,6 +47,7 @@ Feel free to use the notes for any non-commercial purposes!
 * <https://github.com/binhnguyennus/awesome-scalability>
 * <https://github.com/onurakpolat/awesome-bigdata>
 * <https://github.com/mfornos/awesome-microservices>
+* * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
 
 
 ## Networking
@@ -66,6 +68,9 @@ Feel free to use the notes for any non-commercial purposes!
 ##### Clock and Logical Ordering
 * Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
 * See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
+##### Leader Election
+* Bully Algorithm network optimization: <https://www.researchgate.net/publication/224568576_A_New_Approach_For_Election_Algorithm_in_Distributed_Systems>
+* Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
 
 
 ## Communication Protocols
@@ -94,6 +99,7 @@ Feel free to use the notes for any non-commercial purposes!
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
 ##### Hash Tables
+* Chord algorithm paper: <https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf>
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
 
