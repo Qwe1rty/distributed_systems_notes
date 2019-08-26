@@ -16,17 +16,18 @@ and updates, that would otherwise be really easy on a single machine.
   * Vector Timestamps 
 * Leader Election
   * The Bully Algorithm
-  * **Ring Election**
+  * Ring Election: Candidate Replacement
+  * Ring Election: Signup
   * **Election in Wireless Networks**
   * **Pitfalls of Leader Election and Relation to Consensus**
+* **Notification Filtering**
+  * **TODO**
+* **Gossip Coordination**
+  * **TODO**
 * **Mutual Exclusion**
   * **Token Rings**
   * **Using Lamport Clocks**
   * **Performance Comparison**
-  * **TODO**
-* **Notification Filtering**
-  * **TODO**
-* **Gossip Coordination**
   * **TODO**
   
 **Bold indicates that it is not complete, but is planned**

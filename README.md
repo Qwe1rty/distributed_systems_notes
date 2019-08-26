@@ -10,6 +10,8 @@ JPG images for each page.
 
 Feel free to use the notes for any non-commercial purposes!
 
+**Currently a work in progress**
+
 
 ## Introductory Articles
 * <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
@@ -79,14 +81,17 @@ Feel free to use the notes for any non-commercial purposes!
 * <http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html>
 * Explanation of multicast IPs: <http://www.steves-internet-guide.com/introduction-multicasting/>
 ##### Gossip Protocols
-* <https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/>
+* Full discussion of gossip (including strengths and weaknesses, different types, etc.): <https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/>
 * <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
 * <http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html>
 * Gossip performance analysis: <http://phdopen.mimuw.edu.pl/lato08/notes-1.pdf>
 ##### Gossip Usage
 * Explores gossip practices and nuances: <https://ayende.com/blog/169474/gossip-much-use-cases-and-bad-practices-for-gossip-protocols>
 * Explains various use cases: <https://www.quora.com/What-is-a-Gossip-protocol>
-* Explains usage in Cassandra: <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>  
+* Explains usage and role in Cassandra: 
+  * <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>
+  * <https://stackoverflow.com/questions/28127182/data-transmission-between-nodes-and-client-cassandra>
+* Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>  
 
 
 ## Consensus
