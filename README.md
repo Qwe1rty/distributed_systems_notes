@@ -49,7 +49,7 @@ Feel free to use the notes for any non-commercial purposes!
 * <https://github.com/binhnguyennus/awesome-scalability>
 * <https://github.com/onurakpolat/awesome-bigdata>
 * <https://github.com/mfornos/awesome-microservices>
-* * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
+* Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
 
 
 ## Networking
