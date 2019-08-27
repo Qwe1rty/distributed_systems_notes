@@ -14,6 +14,6 @@ and basic mechanisms
   * **Rumor Mongering (SIR Model)**
   * **Topology-Aware Gossip**
   * **Gossip Caveats**  
-* **TODO**
+* **RPC**
   
 **Bold indicates that it is not complete, but is planned**

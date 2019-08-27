@@ -69,6 +69,7 @@ Feel free to use the notes for any non-commercial purposes!
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
 ##### Clock and Logical Ordering
 * Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
+* Uses for causality/vector clocks: <http://www.bailis.org/blog/causality-is-expensive-and-what-to-do-about-it/>
 * See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
 ##### Leader Election
 * Bully Algorithm network optimization: <https://www.researchgate.net/publication/224568576_A_New_Approach_For_Election_Algorithm_in_Distributed_Systems>
