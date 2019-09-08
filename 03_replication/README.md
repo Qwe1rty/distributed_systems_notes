@@ -3,6 +3,11 @@
 ## Replication
 
 * Single-Leader Replication
+  * Synchronous vs. Asynchronous Replication
+    * Synchronous Replication: Chain Replication
+  * Recovery
+    * Recovery: Followers (Catch-up)
+    * Recovery: Leaders (Failover)
 * **Multi-Leader Replication**
 * **Leaderless Replication**
 

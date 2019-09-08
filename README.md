@@ -95,6 +95,15 @@ Feel free to use the notes for any non-commercial purposes!
 * Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>  
 
 
+## Replication
+* Chain replication explanation: <http://dsrg.pdos.csail.mit.edu/2013/08/08/chain-replication/>
+* Chain replication by Robbert van Renesse and Fred B. Schneider, 2004: <http://static.usenix.org/legacy/events/osdi04/tech/full_papers/renesse/renesse.pdf>
+
+
+## Consistency
+* Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
+
+
 ## Consensus
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
