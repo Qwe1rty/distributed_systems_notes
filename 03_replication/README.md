@@ -8,6 +8,11 @@
   * Recovery
     * Recovery: Followers (Catch-up)
     * Recovery: Leaders (Failover)
+  * Replication Logs
+    * Statement-Based Logs
+    * Write-Ahead Logs
+    * Logical Logs (Row-Based Logs)
+  * **Replication Lag/Latency**
 * **Multi-Leader Replication**
 * **Leaderless Replication**
 
