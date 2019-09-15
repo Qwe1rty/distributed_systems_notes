@@ -30,4 +30,4 @@ and updates, that would otherwise be really easy on a single machine.
   * **Performance Comparison**
   * **TODO**
   
-**Bold indicates that it is not complete, but is planned**
+**Bold indicates it's incomplete, but is planned/in progress**
