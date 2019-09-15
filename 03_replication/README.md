@@ -12,8 +12,15 @@
     * Statement-Based Logs
     * Write-Ahead Logs
     * Logical Logs (Row-Based Logs)
-  * **Replication Lag/Latency**
+    * Trigger-Based Replication
+  * Replication Lag/Latency
+    * Read-Your-Writes
+    * Monotonic Reads
+    * Transactions as a Solution
 * **Multi-Leader Replication**
+  * Multi Leader Use Cases
+    * Multi-Datacenter Operation
+    * 
 * **Leaderless Replication**
 
-**Bold indicates that it is not complete, but is planned**
+**Bold indicates it's incomplete, but is planned/in progress**F
