@@ -1,5 +1,7 @@
 # Distributed Systems Notes
 
+**Currently a work in progress!!**
+
 This is my personal collection of links and notes taken while trying to learn about distributed systems.
 
 The structure of these notes is a various mix of paraphrasing/outlines/copying from the resources listed below,
@@ -9,8 +11,6 @@ In each folder you'll find the PDF notes, a README giving an outline of the incl
 JPG images for each page.
 
 Feel free to use the notes for any non-commercial purposes!
-
-**Currently a work in progress**
 
 
 ## Introductory Articles

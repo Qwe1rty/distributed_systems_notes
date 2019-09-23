@@ -17,10 +17,24 @@
     * Read-Your-Writes
     * Monotonic Reads
     * Transactions as a Solution
-* **Multi-Leader Replication**
-  * Multi Leader Use Cases
+* Multi-Leader Replication
+  * Multi-Leader Use Cases
     * Multi-Datacenter Operation
-    * 
+    * Offline Clients
+    * Collaborative Editing
+  * Conflict Resolution
+    * Conflict Avoidance
+    * Conflict Resolution: Consistent State Convergence
+    * Conflict Resolution: Resolution Logic
+  * Multi-Leader Replication Topologies
 * **Leaderless Replication**
+  * **Writes When a Node is Down**
+    * **Read Repair and Anti-Entropy
+  * **Quorum Consistency**
+    * **Quorum Consistency Limitations**
+    * **Monitoring Staleness**
+    * **Sloppy Quorums and Hinted Handoff**
+  * **Multi-Datacenter Operation
+* **Concurrent Write Handling**
 
-**Bold indicates it's incomplete, but is planned/in progress**F
+**Bold indicates it's incomplete, but is planned/in progress**
