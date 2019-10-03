@@ -2,6 +2,9 @@
 
 ## Replication
 
+This chapter is about data replication strategies, nuances, and consistency issues that occur
+when trying to replicate the same data onto different computers
+
 * Single-Leader Replication
   * Synchronous vs. Asynchronous Replication
     * Synchronous Replication: Chain Replication
@@ -28,13 +31,20 @@
     * Conflict Resolution: Resolution Logic
   * Multi-Leader Replication Topologies
 * **Leaderless Replication**
-  * **Writes When a Node is Down**
-    * **Read Repair and Anti-Entropy
-  * **Quorum Consistency**
-    * **Quorum Consistency Limitations**
-    * **Monitoring Staleness**
-    * **Sloppy Quorums and Hinted Handoff**
-  * **Multi-Datacenter Operation
-* **Concurrent Write Handling**
+  * Recovery
+    * Read Repair
+    * Anti-Entropy
+  * Quorum Consistency
+    * Read-Your-Writes and Writes-Follow-Reads
+    * Monotonic Writes
+    * Quorum Consistency Limitations
+    * Monitoring Staleness
+    * The CAP Theorem and Sloppy Quorums
+  * Multi-Datacenter Operation
+  * Concurrent Write Handling
+    * **"Happens-Before" and Causality**
+    * **Value Merging**
+    * **Last Write Wins**
+    * **Version Vectors**
 
 **Bold indicates it's incomplete, but is planned/in progress**
