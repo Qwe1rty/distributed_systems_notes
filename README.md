@@ -98,6 +98,7 @@ Feel free to use the notes for any non-commercial purposes!
 ## Replication
 * Chain replication explanation: <http://dsrg.pdos.csail.mit.edu/2013/08/08/chain-replication/>
 * Chain replication by Robbert van Renesse and Fred B. Schneider, 2004: <http://static.usenix.org/legacy/events/osdi04/tech/full_papers/renesse/renesse.pdf>
+* Dynamo style DBs: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
 
 
 ## Consistency
