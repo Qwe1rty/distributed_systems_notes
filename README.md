@@ -13,15 +13,6 @@ JPG images for each page.
 Feel free to use the notes for any non-commercial purposes!
 
 
-## Introductory Articles
-* <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
-* <https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/>
-* <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
-* <https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/>
-* <https://medium.com/@thehonourablejeffrey/4a-the-beginning-of-the-end-b9c46537b1c5>
-* <https://medium.com/baseds/many-nodes-one-distributed-system-9921f85205c4>
-
-
 ## Textbooks and Courses
 * Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_: <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
 * Distributed Algorithms _by Nancy A. Lynch_: <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
@@ -50,6 +41,15 @@ Feel free to use the notes for any non-commercial purposes!
 * <https://github.com/onurakpolat/awesome-bigdata>
 * <https://github.com/mfornos/awesome-microservices>
 * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
+
+
+## Introductory Articles
+* <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
+* <https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/>
+* <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
+* <https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/>
+* <https://medium.com/@thehonourablejeffrey/4a-the-beginning-of-the-end-b9c46537b1c5>
+* <https://medium.com/baseds/many-nodes-one-distributed-system-9921f85205c4>
 
 
 ## Networking
@@ -109,6 +109,8 @@ Feel free to use the notes for any non-commercial purposes!
 ## Consensus
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
+* Raft interactive visualization: <https://raft.github.io/>
+* Raft walkthrough: <http://thesecretlivesofdata.com/raft/>
 
 
 ## Distributed Storage
