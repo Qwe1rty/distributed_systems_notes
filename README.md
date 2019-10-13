@@ -10,14 +10,16 @@ depending on what I felt helped me learn the material the best.
 In each folder you'll find the PDF notes, a README giving an outline of the included topics, and individual
 JPG images for each page.
 
-Feel free to use the notes for any non-commercial purposes!
 
-
-## Textbooks and Courses
+## Textbooks 
 * Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_: <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
 * Distributed Algorithms _by Nancy A. Lynch_: <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
 * Computer and Network Organization _by Maarten van Steen and Hank Sips_: <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
 * Designing Data-Intensive Applications _by Martin Kleppman_: <http://dataintensive.net/>
+* Distributed Systems for Fun and Profit _by unknown_: <http://book.mixu.net/distsys/single-page.html>
+
+
+## Courses
 * University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
@@ -27,7 +29,6 @@ Feel free to use the notes for any non-commercial purposes!
   * Official Coursera series: <https://www.coursera.org/learn/cloud-computing-2#syllabus>
   * Video series: <https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N>
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
-* <http://book.mixu.net/distsys/single-page.html>
 
 
 ## Academic Papers Hubs
@@ -50,6 +51,7 @@ Feel free to use the notes for any non-commercial purposes!
 * <https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/>
 * <https://medium.com/@thehonourablejeffrey/4a-the-beginning-of-the-end-b9c46537b1c5>
 * <https://medium.com/baseds/many-nodes-one-distributed-system-9921f85205c4>
+* Overview of distributed computing concepts: <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 
 
 ## Networking
@@ -99,7 +101,6 @@ Feel free to use the notes for any non-commercial purposes!
 * Synchronous replication pitfalls: <http://rhaas.blogspot.com/2019/09/synchronous-replication-is-trap.html?m=1>
 * Chain replication explanation: <http://dsrg.pdos.csail.mit.edu/2013/08/08/chain-replication/>
 * Chain replication by Robbert van Renesse and Fred B. Schneider, 2004: <http://static.usenix.org/legacy/events/osdi04/tech/full_papers/renesse/renesse.pdf>
-* Dynamo style DBs: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
 
 
 ## Consistency
@@ -121,6 +122,10 @@ Feel free to use the notes for any non-commercial purposes!
 * Chord algorithm paper: <https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf>
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
+##### Dynamo
+* Original paper: <https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf>
+* Dynamo overview: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
+* Dynamo walkthrough: <https://www.dynamodbguide.com/the-dynamo-paper/>
 
 
 ## Microservices

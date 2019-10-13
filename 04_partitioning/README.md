@@ -14,6 +14,11 @@
   * Rebalancing Strategy: Fixed Partition Count
   * Rebalancing Strategy: Dynamic Partitioning
   * Rebalancing Strategy: Proportional Partitioning
-* **Request Routing**
+* Request Routing
+  * Routing Strategy: Request Forwarding
+  * Routing Strategy: Dedicated Router
+  * Routing Strategy: Partition-aware Client
+* **Example Partitioning Algorithms**
+  * **Chord**
 
 **Bold indicates it's incomplete, but is planned/in progress**
