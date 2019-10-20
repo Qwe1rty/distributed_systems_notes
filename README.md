@@ -105,6 +105,8 @@ JPG images for each page.
 
 ## Consistency
 * Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
+##### Single-Node Transactions
+* Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
 
 
 ## Consensus
