@@ -54,12 +54,6 @@ JPG images for each page.
 * Overview of distributed computing concepts: <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 
 
-## Networking
-* Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
-* Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
-##### I/O Handling
-* `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
-
 ## Design
 * <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
 * <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
@@ -67,16 +61,19 @@ JPG images for each page.
 * <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
 
 
-## Coordination
-##### Synchronization
-* <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
-##### Clock and Logical Ordering
-* Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
-* Uses for causality/vector clocks: <http://www.bailis.org/blog/causality-is-expensive-and-what-to-do-about-it/>
-* See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
-##### Leader Election
-* Bully Algorithm network optimization: <https://www.researchgate.net/publication/224568576_A_New_Approach_For_Election_Algorithm_in_Distributed_Systems>
-* Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
+## Encoding
+##### B-Trees
+* Introduction to B-Trees: <https://dzone.com/articles/database-btree-indexing-in-sqlite>
+* SQLite B-Tree specification: <https://sqlite.org/src4/doc/trunk/www/bt.wiki>
+* SQLite B-Tree interior page explanation: <https://stackoverflow.com/questions/54546990/in-sqlite-what-is-the-meaning-of-value-of-the-table-b-tree-interior-cells-when>
+* SQLite search mechanics explanation: <https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/>
+
+
+## Networking
+* Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
+* Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
+##### I/O Handling
+* `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 
 
 ## Communication Protocols
@@ -97,6 +94,18 @@ JPG images for each page.
   * <https://stackoverflow.com/questions/28127182/data-transmission-between-nodes-and-client-cassandra>
 * Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>
 * Anti-entropy process: <https://medium.com/@ifesdjeen/database-papers-anti-entropy-without-merkle-trees-deletes-without-tombstones-a47d2b1608f3>  
+
+
+## Coordination
+##### Synchronization
+* <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
+##### Clock and Logical Ordering
+* Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
+* Uses for causality/vector clocks: <http://www.bailis.org/blog/causality-is-expensive-and-what-to-do-about-it/>
+* See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
+##### Leader Election
+* Bully Algorithm network optimization: <https://www.researchgate.net/publication/224568576_A_New_Approach_For_Election_Algorithm_in_Distributed_Systems>
+* Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
 
 
 ## Replication
@@ -144,14 +153,6 @@ JPG images for each page.
 ##### Event Sourcing
 * Event sourcing explanation: <https://microservices.io/patterns/data/event-sourcing.html>
 * Vector clock timestamping: <https://stackoverflow.com/questions/41082938/event-sourcing-microservices-how-to-manage-timestamp>
-
-
-## Encoding
-##### B-Trees
-* Introduction to B-Trees: <https://dzone.com/articles/database-btree-indexing-in-sqlite>
-* SQLite B-Tree specification: <https://sqlite.org/src4/doc/trunk/www/bt.wiki>
-* SQLite B-Tree interior page explanation: <https://stackoverflow.com/questions/54546990/in-sqlite-what-is-the-meaning-of-value-of-the-table-b-tree-interior-cells-when>
-* SQLite search mechanics explanation: <https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/>
 
 
 ## Tutorials
