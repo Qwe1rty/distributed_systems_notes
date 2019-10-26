@@ -87,7 +87,7 @@ JPG images for each page.
 ##### Gossip Protocols
 * Full discussion of gossip (including strengths and weaknesses, different types, etc.): <https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/>
 * <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
-* <http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html>
+* Gossip for failure detection, and messaging: <http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html>
 * Gossip performance analysis: <http://phdopen.mimuw.edu.pl/lato08/notes-1.pdf>
 ##### Gossip Usage
 * Explores gossip practices and nuances: <https://ayende.com/blog/169474/gossip-much-use-cases-and-bad-practices-for-gossip-protocols>
@@ -96,7 +96,7 @@ JPG images for each page.
   * <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>
   * <https://stackoverflow.com/questions/28127182/data-transmission-between-nodes-and-client-cassandra>
 * Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>
-* Anti entropy process: <https://medium.com/@ifesdjeen/database-papers-anti-entropy-without-merkle-trees-deletes-without-tombstones-a47d2b1608f3>  
+* Anti-entropy process: <https://medium.com/@ifesdjeen/database-papers-anti-entropy-without-merkle-trees-deletes-without-tombstones-a47d2b1608f3>  
 
 
 ## Replication
@@ -109,7 +109,7 @@ JPG images for each page.
 * Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
 ##### Single-Node Transactions
 * Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
-* MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>x  
+* MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>
 
 
 ## Consensus
@@ -123,6 +123,9 @@ JPG images for each page.
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
+* Relational database series: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
+* SQLite file IO specification: <https://www.sqlite.org/fileio.html#tocentry_132>
+* SQLite file format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>
 ##### Hash Tables
 * Chord algorithm paper: <https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf>
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
@@ -141,6 +144,14 @@ JPG images for each page.
 ##### Event Sourcing
 * Event sourcing explanation: <https://microservices.io/patterns/data/event-sourcing.html>
 * Vector clock timestamping: <https://stackoverflow.com/questions/41082938/event-sourcing-microservices-how-to-manage-timestamp>
+
+
+## Encoding
+##### B-Trees
+* Introduction to B-Trees: <https://dzone.com/articles/database-btree-indexing-in-sqlite>
+* SQLite B-Tree specification: <https://sqlite.org/src4/doc/trunk/www/bt.wiki>
+* SQLite B-Tree interior page explanation: <https://stackoverflow.com/questions/54546990/in-sqlite-what-is-the-meaning-of-value-of-the-table-b-tree-interior-cells-when>
+* SQLite search mechanics explanation: <https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/>
 
 
 ## Tutorials
