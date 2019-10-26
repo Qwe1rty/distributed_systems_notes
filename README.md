@@ -57,7 +57,8 @@ JPG images for each page.
 ## Networking
 * Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
 * Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
-
+##### I/O Handling
+* `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 
 ## Design
 * <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
@@ -94,7 +95,8 @@ JPG images for each page.
 * Explains usage and role in Cassandra: 
   * <https://stackoverflow.com/questions/29039290/what-is-the-use-of-gossip-protocol-in-apache-cassandra>
   * <https://stackoverflow.com/questions/28127182/data-transmission-between-nodes-and-client-cassandra>
-* Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>  
+* Process bootstrapping and discovery: <https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archGossipAbout.html>
+* Anti entropy process: <https://medium.com/@ifesdjeen/database-papers-anti-entropy-without-merkle-trees-deletes-without-tombstones-a47d2b1608f3>  
 
 
 ## Replication
@@ -107,6 +109,7 @@ JPG images for each page.
 * Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
 ##### Single-Node Transactions
 * Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
+* MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>x  
 
 
 ## Consensus
