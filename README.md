@@ -11,15 +11,42 @@ In each folder you'll find the PDF notes, a README giving an outline of the incl
 JPG images for each page.
 
 
-## Textbooks 
+## Table of Contents
+* [Resources](#resources)
+  * [Textbooks](#textbooks)
+  * [Courses](#courses)
+  * [Academic Papers Hubs](#academic-papers-hubs)
+  * [Other Resource Hubs](#other-resource-hubs)
+  * [Tutorials](#tutorials)
+  * [Introductory Articles](#introductory-articles)
+* [Storage, Networking, and Concurrency](#storage-networking-and-concurrency)
+  * [Encoding](#encoding)
+  * [Networking](#networking)
+  * [Communication Protocols](#communication-protocols)
+  * [Concurrency](#concurrency)
+* [Distributed Systems](#distributed-systems)
+  * [Design](#design)
+  * [Coordination](#coordination)
+  * [Replication](#replication)
+  * [Consistency](#consistency)
+  * [Consensus](#consensus)
+  * [Distributed Storage](#distributed-storage) 
+  * [Microservices](#microservices)
+---
+
+
+## Resources
+
+### Textbooks 
+* Designing Data-Intensive Applications _by Martin Kleppman_: <http://dataintensive.net/>
 * Distributed Systems _by Maarten van Steen and Andrew S. Tanenbaum_: <https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/>. _Used by the University of Waterloo's ECE454 [Distributed Computing] course_
 * Distributed Algorithms _by Nancy A. Lynch_: <https://learning.oreilly.com/library/view/distributed-algorithms/9781558603486/>
 * Computer and Network Organization _by Maarten van Steen and Hank Sips_: <https://www.distributed-systems.net/index.php/books/computer-and-network-organization/>
-* Designing Data-Intensive Applications _by Martin Kleppman_: <http://dataintensive.net/>
+* Database Internals _by Alex Petrov_: <https://www.databass.dev/>
 * Distributed Systems for Fun and Profit _by unknown_: <http://book.mixu.net/distsys/single-page.html>
 
 
-## Courses
+### Courses
 * University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
@@ -31,20 +58,25 @@ JPG images for each page.
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 
 
-## Academic Papers Hubs
+### Academic Papers Hubs
 * <https://dancres.github.io/Pages/>
 * <http://book.mixu.net/distsys/single-page.html> (near the bottom)
 * <http://dsrg.pdos.csail.mit.edu/papers/>
 
 
-## Other Resource Hubs
+### Other Resource Hubs
 * <https://github.com/binhnguyennus/awesome-scalability>
 * <https://github.com/onurakpolat/awesome-bigdata>
 * <https://github.com/mfornos/awesome-microservices>
 * Suggested resources for networking and distributed systems (and other stuff too) <https://teachyourselfcs.com/>
 
 
-## Introductory Articles
+### Tutorials
+* <https://dzone.com/articles/creating-a-distributed-system-in-300-lines-with-me>
+* <https://jack-vanlightly.com/blog/2019/2/1/building-a-simple-distributed-system-the-implementation>
+
+
+### Introductory Articles
 * <http://www.hpcs.cs.tsukuba.ac.jp/~tatebe/lecture/h23/dsys/dsd-tutorial.html>
 * <https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/>
 * <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
@@ -54,14 +86,11 @@ JPG images for each page.
 * Overview of distributed computing concepts: <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 
 
-## Design
-* <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
-* <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
-* <https://www.slideshare.net/datamantra/building-distributed-processing-system-from-scratch-part-2>
-* <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
+---
+## Storage, Networking, and Concurrency
 
 
-## Encoding
+### Encoding
 ##### B-Trees
 * Introduction to B-Trees: <https://dzone.com/articles/database-btree-indexing-in-sqlite>
 * SQLite B-Tree specification: <https://sqlite.org/src4/doc/trunk/www/bt.wiki>
@@ -69,14 +98,14 @@ JPG images for each page.
 * SQLite search mechanics explanation: <https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/>
 
 
-## Networking
+### Networking
 * Networking videos by Sunny Learning: <https://m.youtube.com/user/sunnylearning/playlists>
 * Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
 ##### I/O Handling
 * `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 
 
-## Communication Protocols
+### Communication Protocols
 * <http://csis.pace.edu/~marchese/CS865/Lectures/Chap4/Chapter4.htm>
 ##### Multicast
 * <http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html>
@@ -96,7 +125,30 @@ JPG images for each page.
 * Anti-entropy process: <https://medium.com/@ifesdjeen/database-papers-anti-entropy-without-merkle-trees-deletes-without-tombstones-a47d2b1608f3>  
 
 
-## Coordination
+### Concurrency
+##### Synchrony vs. Asynchrony
+* Blocking and non-blocking code mechanics: <https://blog.colinbreck.com/calling-blocking-code-there-is-no-free-lunch/>
+* Asynchrony levels: <https://www.reddit.com/r/scala/comments/69loar/meanings_and_levels_of_async_and_nonblocking>
+* Explanation of how file reads/writes are always synchronous: <https://www.remlab.net/op/nonblock.shtml>
+##### Scala Futures/Promises
+* Futures vs. promises <https://stackoverflow.com/questions/18960339/clarification-needed-about-futures-and-promises-in-scala>
+* HTTP/IO requests and futures: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
+##### Akka Library
+* Akka streams https://blog.colinbreck.com/maximizing-throughput-for-akka-streams/
+
+
+---
+## Distributed Systems
+
+
+### Design
+* <https://www.slideshare.net/mobile/DilumBandara/02-topologies-of-distributed-systems>
+* <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
+* <https://www.slideshare.net/datamantra/building-distributed-processing-system-from-scratch-part-2>
+* <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
+
+
+### Coordination
 ##### Synchronization
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
 ##### Clock and Logical Ordering
@@ -108,33 +160,33 @@ JPG images for each page.
 * Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
 
 
-## Replication
+### Replication
 * Synchronous replication pitfalls: <http://rhaas.blogspot.com/2019/09/synchronous-replication-is-trap.html?m=1>
 * Chain replication explanation: <http://dsrg.pdos.csail.mit.edu/2013/08/08/chain-replication/>
 * Chain replication by Robbert van Renesse and Fred B. Schneider, 2004: <http://static.usenix.org/legacy/events/osdi04/tech/full_papers/renesse/renesse.pdf>
 
 
-## Consistency
+### Consistency
 * Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
 ##### Single-Node Transactions
 * Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
 * MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>
 
 
-## Consensus
+### Consensus
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 * Raft interactive visualization: <https://raft.github.io/>
 * Raft walkthrough: <http://thesecretlivesofdata.com/raft/>
 
 
-## Distributed Storage
+### Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
 * Relational database series: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
 * SQLite file IO specification: <https://www.sqlite.org/fileio.html#tocentry_132>
-* SQLite file format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>* SQLite File format specification: <https://www.sqlite.org/fileformat.html>
+* SQLite file format specification: <https://www.sqlite.org/fileformat.html>
 ##### Hash Tables
 * Chord algorithm paper: <https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf>
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
@@ -145,7 +197,7 @@ JPG images for each page.
 * Dynamo walkthrough: <https://www.dynamodbguide.com/the-dynamo-paper/>
 
 
-## Microservices
+### Microservices
 * <https://microservices.io>
 ##### Design
 * Synchronous vs. asynchronous design: <https://dzone.com/articles/patterns-for-microservices-sync-vs-async>
@@ -154,7 +206,3 @@ JPG images for each page.
 * Event sourcing explanation: <https://microservices.io/patterns/data/event-sourcing.html>
 * Vector clock timestamping: <https://stackoverflow.com/questions/41082938/event-sourcing-microservices-how-to-manage-timestamp>
 
-
-## Tutorials
-* <https://dzone.com/articles/creating-a-distributed-system-in-300-lines-with-me>
-* <https://jack-vanlightly.com/blog/2019/2/1/building-a-simple-distributed-system-the-implementation>
