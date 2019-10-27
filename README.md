@@ -184,7 +184,9 @@ JPG images for each page.
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
-* Relational database series: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
+* Relational database concepts videos: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
+* Database normalization explained: <https://www.guru99.com/database-normalization.html>
+* Database normalization's correspondence to 1-1/1-M/M-M: <https://www.reddit.com/r/learnprogramming/comments/dnd7wf/1nf_2nf_and_3nf/f5c425p/>
 * SQLite file IO specification: <https://www.sqlite.org/fileio.html#tocentry_132>
 * SQLite file format specification: <https://www.sqlite.org/fileformat.html>
 ##### Hash Tables
