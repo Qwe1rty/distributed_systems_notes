@@ -16,4 +16,4 @@ and basic mechanisms
   * **Gossip Caveats**  
 * **RPC**
   
-**Bold indicates it's incomplete, but is planned/in progress**
+**Bold indicates it's incomplete, but is planned/in progress**  

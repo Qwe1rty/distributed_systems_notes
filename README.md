@@ -132,6 +132,7 @@ JPG images for each page.
 * Explanation of how file reads/writes are always synchronous: <https://www.remlab.net/op/nonblock.shtml>
 ##### Scala Futures/Promises
 * Futures vs. promises <https://stackoverflow.com/questions/18960339/clarification-needed-about-futures-and-promises-in-scala>
+* Futures and the execution context: <https://www.beyondthelines.net/computing/scala-future-and-execution-context/>
 * HTTP/IO requests and futures: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 ##### Akka Library
 * Akka streams https://blog.colinbreck.com/maximizing-throughput-for-akka-streams/
