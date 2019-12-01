@@ -130,6 +130,7 @@ JPG images for each page.
 * Blocking and non-blocking code mechanics: <https://blog.colinbreck.com/calling-blocking-code-there-is-no-free-lunch/>
 * Asynchrony levels: <https://www.reddit.com/r/scala/comments/69loar/meanings_and_levels_of_async_and_nonblocking>
 * Explanation of how file reads/writes are always synchronous: <https://www.remlab.net/op/nonblock.shtml>
+* Linux AIO: <https://kkourt.io/blog/2017/10-14-linux-aio.html>
 ##### Scala Futures/Promises
 * Futures vs. promises <https://stackoverflow.com/questions/18960339/clarification-needed-about-futures-and-promises-in-scala>
 * Futures and the execution context: <https://www.beyondthelines.net/computing/scala-future-and-execution-context/>
@@ -198,6 +199,8 @@ JPG images for each page.
 * Original paper: <https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf>
 * Dynamo overview: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
 * Dynamo walkthrough: <https://www.dynamodbguide.com/the-dynamo-paper/>
+##### Caches
+* Distributed cache design (Part I): <https://www.youtube.com/watch?v=tzsOc-hBPfw>
 
 
 ### Microservices
