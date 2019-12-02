@@ -160,6 +160,10 @@ JPG images for each page.
 ##### Leader Election
 * Bully Algorithm network optimization: <https://www.researchgate.net/publication/224568576_A_New_Approach_For_Election_Algorithm_in_Distributed_Systems>
 * Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
+##### Cluster Membership
+* SWIM paper: <https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf>
+* SWIM protocol explanation: <https://blog.kevingomez.fr/2019/01/29/clusters-and-membership-discovering-the-swim-protocol/>
+* Manual membership implementation: <https://github.com/hashicorp/memberlist>
 
 
 ### Replication
@@ -195,7 +199,7 @@ JPG images for each page.
 * Chord algorithm paper: <https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf>
 * <https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b>
 * <https://hackernoon.com/consistent-hashing-with-bounded-loads-using-a-red-black-tree-b5aaf0d8540f?source=post_page>
-##### Dynamo
+##### Dynamo-style (NoSQL)
 * Original paper: <https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf>
 * Dynamo overview: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
 * Dynamo walkthrough: <https://www.dynamodbguide.com/the-dynamo-paper/>
