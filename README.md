@@ -103,6 +103,8 @@ JPG images for each page.
 * Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
 ##### I/O Handling
 * `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
+##### K8s Networking
+* Introduction and explanation (part 1): <https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727>
 
 
 ### Communication Protocols
@@ -162,6 +164,7 @@ JPG images for each page.
 * Explanation of why the Bully Algorithm isn't enough: <https://stackoverflow.com/questions/27558708/whats-the-benefit-of-advanced-master-election-algorithms-over-bully-algorithm>
 ##### Cluster Membership
 * SWIM paper: <https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf>
+* SWIM/Gossip breakdown video: <https://www.youtube.com/watch?v=bkmbWsDz8LM> 
 * SWIM protocol explanation: <https://blog.kevingomez.fr/2019/01/29/clusters-and-membership-discovering-the-swim-protocol/>
 * Manual membership implementation: <https://github.com/hashicorp/memberlist>
 
@@ -180,6 +183,7 @@ JPG images for each page.
 
 
 ### Consensus
+* Impossibility of Distributed Consensus with One Faulty Process: <https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf>
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 * Raft interactive visualization: <https://raft.github.io/>
