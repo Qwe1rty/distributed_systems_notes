@@ -167,6 +167,8 @@ JPG images for each page.
 * SWIM/Gossip breakdown video: <https://www.youtube.com/watch?v=bkmbWsDz8LM> 
 * SWIM protocol explanation: <https://blog.kevingomez.fr/2019/01/29/clusters-and-membership-discovering-the-swim-protocol/>
 * Manual membership implementation: <https://github.com/hashicorp/memberlist>
+* Akka cluster architecture: <https://www.slideshare.net/jboner/the-road-to-akka-cluster-and-beyond>
+* Service discovery with ZooKeeper, etcd, Consul, and CRDTs: <https://medium.com/@unmeshvjoshi/service-discovery-with-crdts-fb02bb48cfff>
 
 
 ### Replication
