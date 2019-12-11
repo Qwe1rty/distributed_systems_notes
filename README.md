@@ -133,6 +133,7 @@ JPG images for each page.
 * Asynchrony levels: <https://www.reddit.com/r/scala/comments/69loar/meanings_and_levels_of_async_and_nonblocking>
 * Explanation of how file reads/writes are always synchronous: <https://www.remlab.net/op/nonblock.shtml>
 * Linux AIO: <https://kkourt.io/blog/2017/10-14-linux-aio.html>
+* Thread pool sizing: <https://jobs.zalando.com/tech/blog/how-to-set-an-ideal-thread-pool-size/?gh_src=4n3gxh1>
 ##### Scala Futures/Promises
 * Futures vs. promises <https://stackoverflow.com/questions/18960339/clarification-needed-about-futures-and-promises-in-scala>
 * Futures and the execution context: <https://www.beyondthelines.net/computing/scala-future-and-execution-context/>
@@ -157,6 +158,7 @@ JPG images for each page.
 * <https://www.quora.com/What-is-synchronous-and-asynchrounous-in-distributed-systems>
 ##### Clock and Logical Ordering
 * Clock synchronization: <https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/09-clock-synchronization-slides-6up.pdf>
+* Lamport clock breakdown: <https://mwhittaker.github.io/blog/lamports_logical_clocks/>
 * Uses for causality/vector clocks: <http://www.bailis.org/blog/causality-is-expensive-and-what-to-do-about-it/>
 * See Maarten van Steen's textbook and the University of Illinois' CS425 resources 
 ##### Leader Election
@@ -177,19 +179,25 @@ JPG images for each page.
 * Chain replication by Robbert van Renesse and Fred B. Schneider, 2004: <http://static.usenix.org/legacy/events/osdi04/tech/full_papers/renesse/renesse.pdf>
 
 
-### Consistency
-* Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
-##### Single-Node Transactions
-* Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
-* MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>
-
-
 ### Consensus
 * Impossibility of Distributed Consensus with One Faulty Process: <https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf>
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+##### Algorithms
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 * Raft interactive visualization: <https://raft.github.io/>
 * Raft walkthrough: <http://thesecretlivesofdata.com/raft/>
+
+
+### Consistency
+* Consistency model hierarchy and analysis of popular DBs: <https://jepsen.io/consistency>
+* Linearizability vs. serializability: <http://www.bailis.org/blog/linearizability-versus-serializability/>
+##### Serializability and Transactional Consistency
+* Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
+* MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>
+##### Linearizability and Replica Consistency
+* Linearizability paper: <https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf>
+* Linearizability and consensus: <https://medium.com/@thisisananth/consistency-consensus-8cd893a47f08>
+* Key/value store based on Raft: <https://groups.google.com/forum/#!msg/raft-dev/uYlZzVCIJTs/Jiv_q2woqXMJ>
 
 
 ### Distributed Storage
