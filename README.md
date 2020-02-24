@@ -184,6 +184,7 @@ JPG images for each page.
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
 ##### Algorithms
 * Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
+* Raft explanation: <https://m.youtube.com/watch?v=vYp4LYbnnW8>
 * Raft interactive visualization: <https://raft.github.io/>
 * Raft walkthrough: <http://thesecretlivesofdata.com/raft/>
 
