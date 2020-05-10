@@ -34,7 +34,7 @@ JPG images for each page.
   * [Microservices](#microservices)
 ---
 
-
+    
 ## Resources
 
 ### Textbooks 
@@ -49,6 +49,8 @@ JPG images for each page.
 ### Courses
 * University of Waterloo's CS454 [Distributed Systems] notes compilation by unknown: <https://paper.dropbox.com/doc/CS-454-Review-Notes-and-Resources-Eb3bsXllcjwyDZrTXMvUM>
 * University of Waterloo's CS451 [Data-Intensive Distributed Computing] Winter 2019 resources: <https://roegiest.com/bigdata-2019w/syllabus.html>
+* Massachussets Institute of Technology 6.824 [Distributed Systems] Spring 2020 resources: <https://pdos.csail.mit.edu/6.824/general.html>
+  * Video series: <https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
   * Video series: <https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU>
 * University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
@@ -64,7 +66,7 @@ JPG images for each page.
 * <http://dsrg.pdos.csail.mit.edu/papers/>
 
 
-### Other Resource Hubs
+### Other Resources
 * <https://github.com/binhnguyennus/awesome-scalability>
 * <https://github.com/onurakpolat/awesome-bigdata>
 * <https://github.com/mfornos/awesome-microservices>
@@ -182,11 +184,14 @@ JPG images for each page.
 ### Consensus
 * Impossibility of Distributed Consensus with One Faulty Process: <https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf>
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
-##### Algorithms
-* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
-* Raft explanation: <https://m.youtube.com/watch?v=vYp4LYbnnW8>
+##### Raft
+* Raft paper (extended): <https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf>
+* Raft protocol breakdown: <https://youtube.com/watch?v=vYp4LYbnnW8>
 * Raft interactive visualization: <https://raft.github.io/>
 * Raft walkthrough: <http://thesecretlivesofdata.com/raft/>
+* MIT's Student Guide to Raft: <https://thesquareplanet.com/blog/students-guide-to-raft/>
+##### Paxos
+* Paxos explanation: <http://lamport.azurewebsites.net/pubs/paxos-simple.pdf>
 
 
 ### Consistency
@@ -203,6 +208,8 @@ JPG images for each page.
 
 ### Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
+##### File Systems
+* Google File System (GFS) paper: <https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf>
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
 * Relational database concepts videos: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
@@ -219,7 +226,9 @@ JPG images for each page.
 * Dynamo overview: <https://priyankvex.wordpress.com/2019/10/05/trying-to-wrap-my-head-around-the-dynamo-storage-system-a-deep-dive/>
 * Dynamo walkthrough: <https://www.dynamodbguide.com/the-dynamo-paper/>
 ##### Caches
-* Distributed cache design (Part I): <https://www.youtube.com/watch?v=tzsOc-hBPfw>
+* Distributed cache design
+  * Part I: <https://www.youtube.com/watch?v=tzsOc-hBPfw>
+  * Part II: <https://www.youtube.com/watch?v=fowDzrMa-Mo>
 
 
 ### Microservices
