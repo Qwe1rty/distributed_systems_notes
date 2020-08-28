@@ -105,6 +105,7 @@ JPG images for each page.
 * Networking tutorial series by Ben Eater: <https://m.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW>
 ##### I/O Handling
 * `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
+* A guide to `epoll` (in Python): <http://scotdoyle.com/python-epoll-howto.html>
 ##### K8s Networking
 * Introduction and explanation (part 1): <https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727>
 
@@ -153,6 +154,9 @@ JPG images for each page.
 * <https://www.slideshare.net/datamantra/building-distributed-systems-from-scratch-part-1>
 * <https://www.slideshare.net/datamantra/building-distributed-processing-system-from-scratch-part-2>
 * <https://www.slideshare.net/datamantra/evolution-of-apache-spark>
+* Patterns of distributed systems: <https://martinfowler.com/articles/patterns-of-distributed-systems/>
+* Aeron architecture _by Martin Thompson_: <https://m.youtube.com/watch?v=tM4YskS94b0>
+* Building scalable stateful services _by Caitie McCaffrey_: <https://www.youtube.com/watch?v=H0i_bXKwujQ&app=desktop>
 
 
 ### Coordination
@@ -199,6 +203,9 @@ JPG images for each page.
 * Linearizability vs. serializability: <http://www.bailis.org/blog/linearizability-versus-serializability/>
 ##### Serializability and Transactional Consistency
 * Transactions and concurrency patterns: <https://www.youtube.com/watch?v=onYjxRcToto>
+* Transaction implementation in PostgreSQL: <http://www.interdb.jp/pg/pgsql05.html>
+* Comparison of distributed transaction architecture (by Jepsen): <https://www.youtube.com/watch?v=w_zYYF3-iSo>
+* Comparison of different isolation levels: <https://dba.stackexchange.com/questions/212983/is-snapshot-isolation-good>
 * MVCC explanation: <https://www.youtube.com/watch?v=sxabCqWsFHg>
 ##### Linearizability and Replica Consistency
 * Linearizability paper: <https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf>
