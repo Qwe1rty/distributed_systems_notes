@@ -52,12 +52,9 @@ JPG images for each page.
 * Massachussets Institute of Technology 6.824 [Distributed Systems] Spring 2020 resources: <https://pdos.csail.mit.edu/6.824/general.html>
   * Video series: <https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos>
 * University of Illinois' CS425 [Distributed Systems] Fall 2016 resources: <https://courses.engr.illinois.edu/cs425/fa2016/lectures.html>
-  * Video series: <https://www.youtube.com/playlist?list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU>
-* University of Waterloo's ECE358 [Computer Networks] Winter 2016 resources: <https://ece.uwaterloo.ca/~m59wang/ECE358/lectures.html>
 * University of Waterloo's CS346 [Networks and Distributed Computer Systems] <https://cs.uwaterloo.ca/~rtholmes/teaching/2011winter/cs436/index.html>
   * Official Coursera series: <https://www.coursera.org/learn/cloud-computing-2#syllabus>
   * Video series: <https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N>
-* <http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>
 
 
 ### Academic Papers Hubs
@@ -188,6 +185,7 @@ JPG images for each page.
 ### Consensus
 * Impossibility of Distributed Consensus with One Faulty Process: <https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf>
 * Consensus concepts: <https://medium.com/s/story/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95>
+* Consensus: Bridging Theory and Practice _by Diego Ongaro_: <https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf>
 ##### Raft
 * Raft paper (extended): <https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf>
 * Raft protocol breakdown: <https://youtube.com/watch?v=vYp4LYbnnW8>
@@ -211,12 +209,14 @@ JPG images for each page.
 * Linearizability paper: <https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf>
 * Linearizability and consensus: <https://medium.com/@thisisananth/consistency-consensus-8cd893a47f08>
 * Key/value store based on Raft: <https://groups.google.com/forum/#!msg/raft-dev/uYlZzVCIJTs/Jiv_q2woqXMJ>
-
+* Distributed locking at Uber, consistency vs. availability: <https://www.youtube.com/watch?v=MDuagr729aU>
+* How to do distributed locking: <https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html>
 
 ### Distributed Storage
 * <http://www.cs.nuim.ie/~dkelly/CS402-06/Distributed%20File%20Systems.htm>
 ##### File Systems
 * Google File System (GFS) paper: <https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf>
+* Google File System explanation: <https://www.youtube.com/watch?v=eRgFNW4QFDc>
 ##### Relational
 * <https://blog.sqlauthority.com/2014/10/06/mysql-how-to-create-a-distributed-relational-sql-database/amp/>
 * Relational database concepts videos: <https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID>
