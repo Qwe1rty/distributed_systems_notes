@@ -103,6 +103,7 @@ JPG images for each page.
 ##### I/O Handling
 * `epoll`, and OS I/O handling: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 * A guide to `epoll` (in Python): <http://scotdoyle.com/python-epoll-howto.html>
+* Flavors of Disk I/O _by Alex Petrov_: https://medium.com/databasss/on-disk-io-part-1-flavours-of-io-8e1ace1de017
 ##### K8s Networking
 * Introduction and explanation (part 1): <https://itnext.io/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727>
 
@@ -139,7 +140,8 @@ JPG images for each page.
 * Futures and the execution context: <https://www.beyondthelines.net/computing/scala-future-and-execution-context/>
 * HTTP/IO requests and futures: <https://stackoverflow.com/questions/47369971/making-a-http-api-server-asynchronous-with-future-how-does-it-make-it-non-block>
 ##### Akka Library
-* Akka streams https://blog.colinbreck.com/maximizing-throughput-for-akka-streams/
+* Akka streams: <https://blog.colinbreck.com/maximizing-throughput-for-akka-streams/>
+* Tour of Akka typed: <https://manuel.bernhardt.io/2019/07/11/tour-of-akka-typed-protocols-and-behaviors/>
 
 
 ---
